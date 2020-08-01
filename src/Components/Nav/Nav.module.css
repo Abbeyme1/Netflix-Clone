@@ -1,0 +1,27 @@
+.Nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px;
+  height: 30px;
+  z-index: 1;
+  transition: all 450ms ease-out;
+}
+
+.NavShow {
+  background-color: #111;
+}
+
+.NavLogo {
+  position: fixed;
+  left: 20px;
+  width: 100px;
+  object-fit: contain;
+}
+
+.NavAvatar {
+  position: fixed;
+  right: 20px;
+  width: 40px;
+  object-fit: contain;
+}
